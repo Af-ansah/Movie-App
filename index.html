@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <h1>My Movie Book</h1>
+        <button class ="btn btn--movie">Add Movie</button>
+    </nav>
+    <h3>Movie list</h3>
+    <div id="div1">
+        <form class ="data"action="">
+            <h3>Movie Database</h3>
+            <p class ="movie-error hidden">Movie title cannot be empty</p>
+            <label for="movie" class ="movTitle">Movie Title</label><input type="text" id="movie"/>
+            <p class ="url-error hidden">Image Url cannot be empty</p>
+            <label for = "image" class="imageUrl">Image URL</label><input type="text" id="image"/>
+            <p class ="rate-error hidden">Rating cannot be empty</p>
+            <p class="number-error hidden">Rate must be between 1-5</p>
+            <label for = "rate" class="rating">Rating</label><input type="number" id="rate"/>
+            <div class="buttons">
+                <button class="baseCancel">Cancel</button>
+                <button class="base1">Add</button>
+            </div>
+        </form>
+    </div>
+    <div class="backdrop hidden"></div>
+    <script src="movie.js"></script>
+</body>
+
+</html>
