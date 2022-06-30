@@ -2,20 +2,21 @@
 .btn--movie{
     align-self: right;
     background-color: rgba(200, 64, 114, 0.499);
+    color: aliceblue;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     background-color: rgb(177, 122, 230);
+    color: aliceblue;
 }
 #div1{
     border: 1px solid rgb(168, 219, 168) ;
     width:50%;
-    /* position: absolute; */
-    /* left: 400px; */
+     position: absolute;
     margin-top:7% ;
-    z-index: 2;
+    z-index: 5;
      
 }
 
@@ -33,14 +34,10 @@ nav {
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    /* background: rgba(16, 7, 7, 0.697); */
+
     
 } 
 
-.baseCancel{
-    
-    
-}
 .baseCancel, .base1{
     width: 40%;
 }
@@ -71,6 +68,22 @@ nav{
 .rate-error,.movie-error,.url-error,.number-error{
     color: red;
 }
-h4{
+
  
+.movie-image{
+    width: 10%;
+    margin: 2%;
+}
+.new-movie{
+    display:flex;
+    align-items: center;
+    
+}
+.movie-id{
+    margin: 2%;
+}
+.titles{
+    display: flex;
+    /* align-items: left; */
+    /* width:10%; */
 }
